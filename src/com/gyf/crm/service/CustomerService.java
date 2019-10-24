@@ -8,6 +8,11 @@ import com.gyf.crm.domain.Customer;
 
 // 客户服务接口 
 public interface CustomerService {
+
+	//通过手机号查找客户信息
+	public Customer findCustomerByTel(String tel);
+
+
 	// 未关联定区客户
 	public List<Customer> findnoassociationCustomers();
 

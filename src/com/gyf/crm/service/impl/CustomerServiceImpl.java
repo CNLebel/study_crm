@@ -13,6 +13,22 @@ import com.gyf.utils.HibernateUtils;
 
 public class CustomerServiceImpl implements CustomerService {
 
+	@Override
+	public Customer findCustomerByTel(String tel) {
+		Session session = HibernateUtils.openSession();
+		session.beginTransaction();
+
+		String hql = "from Customer where telephone = ?";
+		List<Customer> customers = session.createQuery(hql).setParameter(0, tel).list();
+
+		session.getTransaction().commit();
+		session.close();
+		if(customers != null && customers.size() > 0){
+			return customers.get(0);
+		}
+		return null;
+	}
+
 	public List<Customer> findnoassociationCustomers() {
 		Session session = HibernateUtils.openSession();
 		session.beginTransaction();

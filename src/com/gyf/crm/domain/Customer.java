@@ -60,4 +60,14 @@ public class Customer implements Serializable {
 		this.decidedzone_id = decidedzone_id;
 	}
 
+	@Override
+	public String toString() {
+		return "Customer{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", station='" + station + '\'' +
+				", telephone='" + telephone + '\'' +
+				", address='" + address + '\'' +
+				'}';
+	}
 }

@@ -17,6 +17,8 @@
 		<property name="hibernate.format_sql">true</property> <!-- 控制台输出时，对SQL语句格式化 -->
 		<!-- 测试环境 create/ create-drop 正式环境 update validate -->
 		<property name="hibernate.hbm2ddl.auto">update</property> <!-- 自动建表 -->
+
+		<property name="hibernate.current_session_context_class">thread</property>
 		
 		<!-- 加载注解映射Class -->
 		<mapping resource="com/gyf/crm/domain/Customer.hbm.xml"/>

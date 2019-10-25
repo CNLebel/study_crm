@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="crm_test:war" />
+      <artifact name="crm_test:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d84fcf8-ec87-4100-9a51-f0fca7cec78a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/crm_test_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/crm_test_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/crm_test_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/crm_test_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/crm_test_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/crm_test_war_exploded/WEB-INF/classes/com/gyf/crm/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/crm_test_war_exploded/WEB-INF/classes/com/gyf/crm/domain/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/crm_test_war_exploded/WEB-INF/classes/com/gyf/crm/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/crm_test_war_exploded/WEB-INF/classes/com/gyf/crm/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/crm_test_war_exploded/WEB-INF/classes/com/gyf/crm/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/crm_test_war_exploded/WEB-INF/classes/com/gyf/crm/service/impl/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/crm_test_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/crm_test_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/crm_test/com/gyf/crm/domain/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crm_test/com/gyf/crm/domain/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/crm_test/com/gyf/crm/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crm_test/com/gyf/crm/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/crm_test/com/gyf/crm/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/crm_test/com/gyf/crm/service/impl/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gyf/crm/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gyf/crm/domain/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gyf/crm/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gyf/crm/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gyf/crm/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gyf/crm/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/crm_test_war.war" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +31,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm@104.225.151.222" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm@104.225.151.222" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm@104.225.151.222" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="crm: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="Git.Settings">
@@ -54,10 +63,12 @@
   <component name="ProjectId" id="1SdRCNABuea4bevsaQzerD7XmEM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -89,23 +100,17 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.45" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.7.0_75\jre">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:12345/" />
-      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="crm_test:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
-        <artifact name="crm_test:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/crm_test_war" />
-          </settings>
-        </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_45_crm_test" />
-        <option name="HTTP_PORT" value="8090" />
+        <option name="HTTP_PORT" value="12345" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -162,7 +167,7 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="crm_test:war" />
+          <artifact name="crm_test:war exploded" />
         </option>
       </method>
     </configuration>
@@ -174,12 +179,16 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@af7f76f1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6dc93e83" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@af7f76f1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@f9744b3a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@6dc93e83" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7e6f58e9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@ce755105" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +207,8 @@
       <option name="presentableId" value="Default" />
       <updated>1571891357560</updated>
       <workItem from="1571891360889" duration="4417000" />
-      <workItem from="1571905149473" duration="990000" />
+      <workItem from="1571905149473" duration="1339000" />
+      <workItem from="1571962894712" duration="901000" />
     </task>
     <servers />
   </component>
